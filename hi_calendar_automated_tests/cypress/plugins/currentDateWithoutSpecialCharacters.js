@@ -10,3 +10,5 @@ export function whatIsCurrentDateFunction() {
         return today;
     }    
 }
+
+export const dateToCode = whatIsCurrentDateFunction(); 
