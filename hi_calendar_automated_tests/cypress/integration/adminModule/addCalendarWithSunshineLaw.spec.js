@@ -7,7 +7,7 @@ context('Actions', () => {
     cy.visit('')
   })
  
-  it('.type() - type into a DOM element', () => {
+  it('Add a Calendar with Sunshine Law', () => {
     cy.loginAsAdmin();
     cy.contains('Manage Calendars').click();
     cy.contains('Add new calendar').click();
